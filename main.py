@@ -38,7 +38,6 @@ options.add_experimental_option('mobileEmulation',{'deviceName':'iPhone X'})
 # 创建浏览器驱动对象
 driver = webdriver.Chrome(options=options)
 
-
 url2 = 'https://devtest3.buildingqm.com/public/app3/bpm/app/nav.html?lang=zh_CN&token='+token2+'&project_id=100496&team_id=100338&group_id=100337&en_name=bsi_rfi&page_level=project&show_other=1'
 # # 打开百度首页
 driver.get(url2)
@@ -50,7 +49,7 @@ driver.find_element(by=By.XPATH,value="/html/body/div[1]/div[1]/ul/li/div").clic
 # driver.maximize_window()
 
 # 休眠2s
-sleep(30)
+sleep(5)
 
 # 关闭窗口
 driver.quit()
