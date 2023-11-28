@@ -29,7 +29,7 @@ token1 = jsonpath.jsonpath(json_data,token)
 
 # 将list类型转换为str
 token2 = "".join(token1)
-print(token1)
+print(token2)
 
 # 设置手机模拟器模式
 options = webdriver.ChromeOptions()
