@@ -39,7 +39,7 @@ options.add_experimental_option('mobileEmulation',{'deviceName':'iPhone X'})
 driver = webdriver.Chrome(options=options)
 
 url2 = 'https://devtest3.buildingqm.com/public/app3/bpm/app/nav.html?lang=zh_CN&token='+token2+'&project_id=100496&team_id=100338&group_id=100337&en_name=bsi_rfi&page_level=project&show_other=1'
-# # 打开百度首页
+# 打开测试页面
 driver.get(url2)
 
 sleep(5)
